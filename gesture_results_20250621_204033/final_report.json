@@ -1,0 +1,89 @@
+{
+  "model_info": {
+    "classes": [
+      "palm",
+      "fist",
+      "thumbs_up",
+      "peace",
+      "ok"
+    ],
+    "image_size": [
+      64,
+      64
+    ],
+    "num_classes": 5
+  },
+  "results": {
+    "training": {
+      "final_accuracy": 0.9599999785423279,
+      "final_val_accuracy": 0.9900000095367432,
+      "epochs": 15,
+      "model_path": "gesture_results_20250621_204033\\gesture_model.h5"
+    },
+    "predictions": [
+      {
+        "true_label": "peace",
+        "predicted_label": "peace",
+        "confidence": 0.43742573261260986,
+        "correct": true
+      },
+      {
+        "true_label": "palm",
+        "predicted_label": "palm",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "true_label": "peace",
+        "predicted_label": "peace",
+        "confidence": 0.5899531245231628,
+        "correct": true
+      },
+      {
+        "true_label": "fist",
+        "predicted_label": "fist",
+        "confidence": 0.9699171781539917,
+        "correct": true
+      },
+      {
+        "true_label": "fist",
+        "predicted_label": "fist",
+        "confidence": 0.9823703765869141,
+        "correct": true
+      },
+      {
+        "true_label": "peace",
+        "predicted_label": "peace",
+        "confidence": 0.5022906064987183,
+        "correct": true
+      },
+      {
+        "true_label": "peace",
+        "predicted_label": "peace",
+        "confidence": 0.4837622046470642,
+        "correct": true
+      },
+      {
+        "true_label": "fist",
+        "predicted_label": "fist",
+        "confidence": 0.9802697896957397,
+        "correct": true
+      },
+      {
+        "true_label": "palm",
+        "predicted_label": "palm",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "true_label": "ok",
+        "predicted_label": "ok",
+        "confidence": 0.9699186086654663,
+        "correct": true
+      }
+    ],
+    "accuracy": 0.99
+  },
+  "timestamp": "2025-06-21T20:41:56.743894",
+  "output_directory": "gesture_results_20250621_204033"
+}
